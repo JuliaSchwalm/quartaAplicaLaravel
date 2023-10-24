@@ -1,0 +1,147 @@
+
+
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #40274F; /* Lilás Escuro */
+    color: #ffffff; /* Branco */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    background-color: #ffffff; /* Branco */
+    color: #40274F; /* Lilás Escuro */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 20px; 
+}
+
+button:hover {
+    background-color: #f0f0f0; /* Tom mais claro de branco */
+}
+
+/* Index */
+#index {
+    background: linear-gradient(to bottom, #40274F, #ffffff); /* Degradê de Lilás Escuro a Branco */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Página de Listagem de Setores e Funcionários */
+.lista {
+    background-color: #f7f7f7; /* Tom mais claro de branco */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    color: #40274F;
+}
+
+.lista table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px auto;
+    border-collapse: collapse;
+}
+
+.lista table, .lista th, .lista td {
+    border: 1px solid #40274F; /* Lilás Escuro */
+}
+
+.lista th, .lista td {
+    padding: 8px;
+}
+
+.lista th{
+  background-color: #D8BFD8;
+}
+
+
+/* Formulários */
+form {
+    background-color: #f7f7f7; /* Tom mais claro de branco */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    max-width: 600px; 
+    max-height: 600px;
+    margin: 20px auto;
+    color: #40274F;
+}
+
+form input, form select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #6B3A70; /* Um tom mais escuro de lilás */
+    color: #ffffff; /* Texto branco para contrastar */
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"]:hover {
+    background-color: #57305C; /* Tom mais escuro de lilás no hover */
+}
+
+form legend {
+    font-weight: bold;
+    color: #6B3A70; /* Tom de lilás escuro */
+    background-color: #f7f7f7; /* Tom mais claro de branco */
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+/* Gradiente de Fundo */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: linear-gradient(to bottom, #40274F, #ffffff); /* Degradê de Lilás Escuro a Branco */
+}
+
+
+
+.botao-voltar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #6B3A70;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
